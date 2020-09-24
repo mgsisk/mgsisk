@@ -28,7 +28,10 @@
   "homepage": "https://github.com/mgsisk/mgsisk#readme",
   "funding": "https://github.com/mgsisk/mgsisk?sponsor=1",
   "devDependencies": {
+    "@mgsisk/eslint-config": "^2.0.0",
     "@mgsisk/remark-lint-config": "^0.4.0",
-    "remark-cli": "^8.0.1"
+    "eslint": "^7.9.0",
+    "remark-cli": "^8.0.1",
+    "yaml-lint": "^1.2.4"
   }
 }
