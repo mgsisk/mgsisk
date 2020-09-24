@@ -1,0 +1,34 @@
+{
+  "name": "mgsisk",
+  "version": "1.0.0",
+  "description": "I'm an award-winning designer and developer with a passion for the web, new media, and bringing creative ideas to life.",
+  "main": "index.js",
+  "scripts": {
+    "fix.js": "eslint --fix '**/*.js' '**/.*.js'",
+    "fix.md": "remark . .github/ -o",
+    "lint.js": "eslint '**/*.js' '**/.*.js'",
+    "lint.json": "YAMLLINT_SCHEMA=JSON_SCHEMA yamllint '**/*.json' '**/.*.json'",
+    "lint.md": "remark . .github/",
+    "lint.sh": "shellcheck *.sh",
+    "lint.yml": "yamllint '**/*.yml' '**/.*.yml'",
+    "test": "npm run lint.md",
+    "preversion": "npm test",
+    "version": "git add --all",
+    "postversion": "git push --follow-tags"
+  },
+  "repository": "github:mgsisk/mgsisk",
+  "keywords": [
+    "github",
+    "profile",
+    "user"
+  ],
+  "author": "mgsisk <me@mgsisk.com> (https://mgsisk.com)",
+  "license": "ISC",
+  "bugs": "https://github.com/mgsisk/mgsisk/issues",
+  "homepage": "https://github.com/mgsisk/mgsisk#readme",
+  "funding": "https://github.com/mgsisk/mgsisk?sponsor=1",
+  "devDependencies": {
+    "@mgsisk/remark-lint-config": "^0.4.0",
+    "remark-cli": "^8.0.1"
+  }
+}
