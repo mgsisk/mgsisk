@@ -6,6 +6,7 @@
   "scripts": {
     "fix.js": "eslint --fix '**/*.js' '**/.*.js'",
     "fix.md": "remark . .github/ --ignore-pattern 'LICENSE*' -o",
+    "fix.sh": "shellcheck *.sh -f diff | git apply",
     "lint.js": "eslint '**/*.js' '**/.*.js'",
     "lint.json": "YAMLLINT_SCHEMA=JSON_SCHEMA yamllint '**/*.json' '**/.*.json'",
     "lint.md": "remark . .github/ --ignore-pattern 'LICENSE*'",
