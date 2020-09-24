@@ -1,14 +1,14 @@
 {
   "name": "mgsisk",
   "version": "1.0.0",
-  "description": "I'm an award-winning designer and developer with a passion for the web, new media, and bringing creative ideas to life.",
+  "description": "Award-winning designer and developer with a passion for the web, new media, and bringing creative ideas to life.",
   "main": "index.js",
   "scripts": {
     "fix.js": "eslint --fix '**/*.js' '**/.*.js'",
-    "fix.md": "remark . .github/ -o",
+    "fix.md": "remark . .github/ --ignore-pattern 'LICENSE*' -o",
     "lint.js": "eslint '**/*.js' '**/.*.js'",
     "lint.json": "YAMLLINT_SCHEMA=JSON_SCHEMA yamllint '**/*.json' '**/.*.json'",
-    "lint.md": "remark . .github/",
+    "lint.md": "remark . .github/ --ignore-pattern 'LICENSE*'",
     "lint.sh": "shellcheck *.sh",
     "lint.yml": "yamllint '**/*.yml' '**/.*.yml'",
     "test": "npm run lint.md",
@@ -32,6 +32,7 @@
     "@mgsisk/remark-lint-config": "^0.4.0",
     "eslint": "^7.9.0",
     "remark-cli": "^8.0.1",
+    "shellcheck": "^0.4.4",
     "yaml-lint": "^1.2.4"
   }
 }
