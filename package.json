@@ -33,7 +33,7 @@
     "@mgsisk/remark-lint-config": "^0.4.0",
     "eslint": "^7.9.0",
     "remark-cli": "^8.0.1",
-    "shellcheck": "^0.4.4",
+    "shellcheck": "^1.0.0",
     "yaml-lint": "^1.2.4"
   }
 }
