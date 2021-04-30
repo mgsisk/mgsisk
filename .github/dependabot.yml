@@ -8,17 +8,5 @@ updates:
       - "mgsisk"
     labels:
       - "change"
-      - "dependencies"
-    reviewers:
-      - "mgsisk"
-  - package-ecosystem: "bundler"
-    directory: "/"
-    schedule:
-      interval: "monthly"
-    assignees:
-      - "mgsisk"
-    labels:
-      - "change"
-      - "dependencies"
     reviewers:
       - "mgsisk"
