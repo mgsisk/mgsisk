@@ -11,6 +11,6 @@ If you like what I do please [support my work][].
 [developer]: https://github.com/mgsisk
 [education]: https://kellogg.edu
 [higher]: https://wmich.edu
-[kalamazoo]: https://kalamazoocity.org
+[Kalamazoo]: https://kalamazoocity.org
 [open to new opportunities]: mailto:me@mgsisk.com
 [support my work]: https://liberapay.org/mgsisk
