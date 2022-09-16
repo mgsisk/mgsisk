@@ -1,0 +1,108 @@
+# https://github.com/github/gitignore
+
+# Archives.gitignore
+*.7z
+*.bz2
+*.bzip
+*.bzip2
+*.cab
+*.deb
+*.dmg
+*.egg
+*.gem
+*.gz
+*.gzip
+*.iso
+*.jar
+*.lzma
+*.msi
+*.msm
+*.msp
+*.rar
+*.rpm
+*.tar
+*.tgz
+*.txz
+*.xar
+*.xpi
+*.xz
+*.zip
+
+# Backup.gitignore
+*.bak
+*.gho
+*.ori
+*.orig
+*.tmp
+
+# Diff.gitignore
+*.diff
+*.patch
+
+# Linux.gitignore
+.directory
+.fuse_hidden*
+.nfs*
+.Trash-*
+*~
+
+# macOS.gitignore
+._*
+.apdisk
+.AppleDB
+.AppleDesktop
+.AppleDouble
+.com.apple.timemachine.donotpresent
+.DocumentRevisions-V100
+.DS_Store
+.fseventsd
+.LSOverride
+.Spotlight-V100
+.TemporaryItems
+.Trashes
+.VolumeIcon.icns
+Icon
+Network Trash Folder
+Temporary Items
+
+# Vagrant.gitignore
+.vagrant/
+
+# Vim.gitignore
+!*.svg  # comment out if you don't need vector files
+.netrwhist
+[._]*.s[a-v][a-z]
+[._]*.sw[a-p]
+[._]*.un~
+[._]s[a-rt-v][a-z]
+[._]ss[a-gi-z]
+[._]sw[a-p]
+*~
+Session.vim
+Sessionx.vim
+tags
+
+# VisualStudioCode.gitignore
+!.vscode/*.code-snippets
+!.vscode/extensions.json
+!.vscode/launch.json
+!.vscode/settings.json
+!.vscode/tasks.json
+.history/
+.vscode/*
+*.vsix
+
+# Windows.gitignore
+[Dd]esktop.ini
+*.cab
+*.lnk
+*.msi
+*.msix
+*.msm
+*.msp
+*.stackdump
+$RECYCLE.BIN/
+ehthumbs_vista.db
+ehthumbs.db
+Thumbs.db
+Thumbs.db:encryptable
