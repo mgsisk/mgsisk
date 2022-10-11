@@ -60,7 +60,7 @@ higher education, but I’m always open to new opportunities.
 [badge-html]: https://img.shields.io/badge/HTML-e85533?style=for-the-badge&logo=html5&logoColor=white
 [badge-javascript]: https://img.shields.io/badge/JavaScript-ffdd33?style=for-the-badge&logo=javascript&logoColor=black
 [badge-markdown]: https://img.shields.io/badge/Markdown-bbf333?style=for-the-badge&logo=markdown&logoColor=black
-[badge-more]: https://img.shields.io/badge/Learn%20more-white?style=for-the-badge&logo=plex&logoColor=black
+[badge-more]: https://img.shields.io/badge/Learn%20more-white?style=for-the-badge&logo=imgur&logoColor=black
 [badge-nginx]: https://img.shields.io/badge/Nginx-339933?style=for-the-badge&logo=nginx&logoColor=white
 [badge-node]: https://img.shields.io/badge/Node-54ba33?style=for-the-badge&logo=nodedotjs&logoColor=white
 [badge-npm]: https://img.shields.io/badge/npm-f33377?style=for-the-badge&logo=netapp&logoColor=white
