@@ -1,30 +1,21 @@
 #!/bin/sh
 
 echo ''
-echo 'This is an opinionated script for configuring macOS and Linux systems. It will'
-echo 'install Homebrew (including whatever packages can be installed on your system'
-echo 'from the included Brewfile) and update configurations in your home directory,'
-echo 'including GPG and SSH keys.'
+echo 'This is an opinionated script for configuring macOS systems. It will install'
+echo 'Homebrew (including whatever packages can be installed on your system from the'
+echo 'included Brewfile) and update configurations in your home directory, including'
+echo 'GPG and SSH keys.'
 echo ''
 printf 'Continue? [y/N] '
 read -r go_now
 
 echo "$go_now" | tr '[:upper:]' '[:lower:]' | grep -q ^y || exit 0
 
-command -v xcode-select >/dev/null && xcode-select --install
+xcode-select --install
 
 /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
 
-[ -d /opt/homebrew ] && brew bundle
-
-if [ -d /home/linuxbrew ]
-  then cp Brewfile /tmp/brewfile
-  sed -i '' '/^cask /d' /tmp/brewfile
-  sed -i '' ',^tap "homebrew/cask,d' /tmp/brewfile
-  sed -i '' '/^mas /d' /tmp/brewfile
-  sed -i '' '/ "mas"/d' /tmp/brewfile
-  brew bundle --file=/tmp/brewfile
-fi
+brew bundle
 
 cp ../.editorconfig ~/.editorconfig
 cp .gitconfig ~/.gitconfig
