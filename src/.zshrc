@@ -33,8 +33,6 @@ PS2='%F{black}•%f '
 RPS1='${vcs_info_msg_0_}'
 RPS2='%B%F{black}%^%f%b'
 
-[ -f /tmp/prov ] && PS1='%B%(!.%(?.%M#.%F{red}%M×).%(?.%M❯.%F{red}%M×))%f%b '
-
-alias ls='ls -FGh'
+alias ls='ls -FGhl'
 alias run='npm run -s'
-alias ssh-agent-init='eval "$(ssh-agent)" && ssh-add'
+alias update='mas upgrade && brew update && brew outdated && brew upgrade && brew cleanup'
