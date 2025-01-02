@@ -1,59 +1,68 @@
 tap "homebrew/bundle"
-tap "homebrew/cask"
-tap "homebrew/cask-drivers"
-tap "homebrew/cask-fonts"
-tap "homebrew/core"
-brew "php"
-brew "composer"
-brew "frobtads"
+brew "exiftool"
 brew "gh"
 brew "git-lfs"
 brew "libdvdcss"
 brew "mas"
 brew "node"
-brew "subversion"
-brew "tldr"
-brew "trash"
+brew "qpdf"
+brew "scc"
+brew "wakeonlan"
 cask "audio-hijack"
-cask "cryptomator"
+cask "farrago"
 cask "figma"
 cask "firefox"
-cask "font-changa"
-cask "font-changa-one"
-cask "font-georama"
+cask "font-monaspace"
 cask "github"
 cask "godot"
 cask "gpg-suite"
 cask "handbrake"
 cask "imageoptim"
-cask "inkscape"
-cask "keepassxc"
+cask "kid3"
 cask "loopback"
-cask "microsoft-edge"
 cask "obs"
-cask "obs-websocket"
-cask "parallels"
+cask "orbstack"
 cask "transmission"
-cask "vagrant"
 cask "visual-studio-code"
+cask "vivaldi"
 cask "vlc"
-mas "AdGuard for Safari", id: 1440147259
 mas "Affinity Designer 2", id: 1616831348
 mas "Affinity Photo 2", id: 1616822987
 mas "Affinity Publisher 2", id: 1606941598
 mas "Amphetamine", id: 937984704
 mas "Brother iPrint&Scan", id: 1193539993
 mas "Compressor", id: 424390742
+mas "Cyberduck", id: 409222199
 mas "Final Cut Pro", id: 424389933
-mas "GarageBand", id: 682658836
-mas "iMovie", id: 408981434
+mas "Ghostery Privacy Ad Blocker", id: 6504861501
 mas "Keka", id: 470158793
 mas "Keynote", id: 409183694
+mas "Kindle", id: 302584613
 mas "Logic Pro", id: 634148309
 mas "MainStage", id: 634159523
-mas "Microsoft Remote Desktop", id: 1295203466
 mas "Motion", id: 434290957
 mas "Numbers", id: 409203825
 mas "Pages", id: 409201541
 mas "Presentify", id: 1507246666
 mas "Steam Link", id: 1246969117
+mas "Windows App", id: 1295203466
+mas "Xcode", id: 497799835
+vscode "csstools.postcss"
+vscode "dbaeumer.vscode-eslint"
+vscode "editorconfig.editorconfig"
+vscode "esbenp.prettier-vscode"
+vscode "file-icons.file-icons"
+vscode "geequlim.godot-tools"
+vscode "github.github-vscode-theme"
+vscode "github.remotehub"
+vscode "github.vscode-codeql"
+vscode "github.vscode-github-actions"
+vscode "github.vscode-pull-request-github"
+vscode "gruntfuggly.todo-tree"
+vscode "ms-azuretools.vscode-docker"
+vscode "ms-vscode.remote-repositories"
+vscode "shopify.theme-check-vscode"
+vscode "stkb.rewrap"
+vscode "stylelint.vscode-stylelint"
+vscode "timonwong.shellcheck"
+vscode "travisthetechie.write-good-linter"
