@@ -1,1 +1,1 @@
-Public repositories moved to [Codeberg](https://codeberg.org/mgsisk/)
+Active repositories moved to [Codeberg](https://codeberg.org/mgsisk/)
